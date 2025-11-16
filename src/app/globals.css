@@ -42,8 +42,8 @@
   --radius-lg: var(--radius);
   --radius-xl: calc(var(--radius) + 4px);
 
-  --heaight-header: 4.5rem;
-  --height-screen-without-header: calc(100vh - var(--heaight-header)); 
+  --height-header: 4rem;
+  --height-screen-with-header: calc(100vh - var(--height-header));
 }
 
 :root {
